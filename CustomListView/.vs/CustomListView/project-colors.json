@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1da66c69-c0af-4c57-8b2b-9353f03c2fe2": {
+      "ProjectGuid": "1da66c69-c0af-4c57-8b2b-9353f03c2fe2",
+      "DisplayName": "CustomListView",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

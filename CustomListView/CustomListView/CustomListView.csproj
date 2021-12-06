@@ -1,8 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
     <PropertyGroup>
         <TargetFramework>net6.0</TargetFramework>
     </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include="App_Plugins\DM.ListViews\Products\Products.css" />
+      <Content Include="App_Plugins\DM.ListViews\Products\Products.html" />
+    </ItemGroup>
 
     <ItemGroup>
         <PackageReference Include="Umbraco.Cms" Version="9.1.2" />
@@ -15,6 +20,10 @@
         <PackageReference Include="Microsoft.ICU.ICU4C.Runtime" Version="68.2.0.9" />
         <PackageReference Include="Umbraco.TheStarterKit" Version="9.0.0" />
         <RuntimeHostConfigurationOption Include="System.Globalization.AppLocalIcu" Value="68.2" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Include="App_Plugins\DM.ListViews\package.manifest" />
+      <None Include="App_Plugins\DM.ListViews\Products\Products.controller.js" />
     </ItemGroup>
 
 
